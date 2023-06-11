@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ResultActivity">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:layout_marginTop="18dp"
+        android:textStyle="bold"
+        android:textColor="@color/red"
+        android:text="Seu Índice de Massa Corpórea - IMC é:"
+        />
+
+    <TextView
+        android:id="@+id/textview_result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="38sp"
+        android:padding="16dp"
+        android:textColor="@color/white"
+        tools:text="27.104" />
+
+    <TextView
+        android:id="@+id/textview_classificacao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:layout_margin="8dp"
+        android:textColor="@color/white"
+        tools:text="Classificação: Normal" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="15sp"
+        android:layout_margin="25dp"
+        android:textStyle="bold"
+        android:text="Veja abaixo a tabela de classificações do IMC " />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="25sp"
+        android:layout_margin="5dp"
+        android:textStyle="bold"
+        android:text="TABELA IMC " />
+
+    <TextView
+        android:textColor="@color/teal_200"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="15sp"
+        android:layout_margin="5dp"
+        android:textStyle="bold"
+        android:text="IMC menor que 18.5: ABAIXO DO PESO " />
+
+    <TextView
+        android:textColor="@color/teal_200"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="15sp"
+        android:layout_margin="5dp"
+        android:textStyle="bold"
+        android:text="IMC entre 18.5 e 24.9: PESO NORMAL " />
+
+    <TextView
+        android:textColor="@color/teal_200"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="15sp"
+        android:layout_margin="5dp"
+        android:textStyle="bold"
+        android:text="IMC entre 25.0 e 29.9: OBESIDADE GRAU I " />
+
+    <TextView
+        android:textColor="@color/teal_200"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="15sp"
+        android:layout_margin="5dp"
+        android:textStyle="bold"
+        android:text="IMC entre 30.0 e 39.9: OBESIDADE GRAU II " />
+
+    <TextView
+        android:textColor="@color/teal_200"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="15sp"
+        android:layout_margin="5dp"
+        android:textStyle="bold"
+        android:text="IMC maior que 40.0: OBESIDADE GRAVE GRAU III " />
+
+    <TextView
+        android:textColor="@color/red"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:layout_marginTop="30dp"
+        android:text=" A Organização Mundial de Saúde (OMS) afirma que a OBESIDADE é a causa de morte de 2,8 milhões de pessoas por ano. Caso o seu resultado esteja dentro dos quadros de obesidade, seja o grau que for, procure um profissional da saúde. Isso vai lhe fazer bem!" />
+
+
+</LinearLayout>
